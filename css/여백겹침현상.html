@@ -42,17 +42,22 @@
     */
     header .inner{
       background-color: #ccc;
-      /* width:auto; */
-      width:1000px;
-      /* 
+      min-width:600px;
+      max-width:1400px;
+      width:90%;
+      margin:0 auto;
+      padding:50px 0;
+/* width:auto; */
+       /* 
       박스모델의 블록레벨의 정렬은 margin:0 auto;  이용해 가운데 정렬
       margin바깥여백을 반으로 나눠서 왼쪽 오른쪽 적용
       */
       /* margin:상하 좌우 */
-      margin:0 auto;
-
     }
-    header .inner .child{}
+    header .inner .child{
+      padding:1rem;
+      /* margin:50px; */
+    }
     header .inner .child1{background-color: #86f;}
     header .inner .child2{background-color: #f68;}
   </style>
