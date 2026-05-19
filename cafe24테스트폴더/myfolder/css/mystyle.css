@@ -4,8 +4,12 @@
   background-color: #ccc;
   border: 1px solid #000;
   box-sizing: border-box;
-
 }
+/* .ub-style 연속으로 나올때 동생에게 여백 */
+.ub-style + .ub-style{
+  margin-top:50px;
+}
+
 
 /* 공통 */
 
@@ -53,6 +57,29 @@
     margin-left:auto;
     margin-right:auto;
   }
+}
+/*  .ub-style  .main_title */
+.ub-style  .main_title{}
+.ub-style  .main_title.flex{
+  align-items:end;
+  justify-content: start;
+}
+
+.ub-style  .main_title.flex  .main_title_txt02{
+  margin-left: 10px;
+  margin-top:0;
+}
+.ub-style  .main_title .main_title_txt01{
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1;
+  color:#000;
+}
+.ub-style  .main_title .main_title_txt02{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+  color:#999;
 }
 
 
